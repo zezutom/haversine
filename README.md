@@ -25,7 +25,7 @@ A complete dictionary is to be found in [us_states.py](./us_states.py).
 
 Having all the relevant information in place, I was looking for a feasible way of associating the tweets with the list of US states. Turns out that [Haversine formula](http://en.wikipedia.org/wiki/Haversine_formula) is one of the most popular methods for calculating distance between two pairs of coordinates.
 
-My implementation of the Haversine formula merely mirrors the unbeatable [Python example at platoscave.net](http://www.platoscave.net/blog/2009/oct/5/calculate-distance-latitude-longitude-python), here is the result (see [us_states.py](./us_states.py) for full details):
+My implementation of the Haversine formula merely mirrors a [Python example at platoscave.net](http://www.platoscave.net/blog/2009/oct/5/calculate-distance-latitude-longitude-python), here is the result (see [us_states.py](./us_states.py) for full details):
 
 ```python
 def haversine(self, origin, destination):
